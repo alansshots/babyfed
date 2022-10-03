@@ -1,0 +1,13 @@
+.box {
+    margin: 50px;
+    border: 2px solid #ffde59;
+    border-radius: 10px;
+ }
+ .box > h3 {
+    position: absolute;
+    background: white;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding: 0 10px;
+ }
