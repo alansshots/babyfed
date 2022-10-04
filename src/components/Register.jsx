@@ -3,26 +3,24 @@ import React from 'react'
 const Register = () => {
   return (
     <div className='Register'>  
-        <div class="bg-white dark:bg-gray-800 ">
-            <div class="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-                <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-                    <span class="block">
-                        Want to be the Federer?
+        <div className="bg-gray-800">
+            <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+                <h2 className="text-3xl font-extrabold text-black sm:text-4xl mb-10">
+                    <span className="block text-white">
+                        Are you the next <span className="text-[#ffde59]">Federer</span> ?
                     </span>
-                    <span class="block text-indigo-500">
-                        It&#x27;s today or never.
+                    <span className="block font-normal text-xl text-white">
+                        Register now for early access!
                     </span>
                 </h2>
-                <div class="lg:mt-0 lg:flex-shrink-0">
-                    <div class="mt-12 inline-flex rounded-md shadow">
-                    <div class="relative flex-grow w-full">
-                        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                        <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                    </div>
-                        <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                            Get started
-                        </button>
-                    </div>
+                <div className="lg:mt-0 lg:flex-shrink-0">                   
+                    <form>   
+                        <label for="search" className="mb-2 text-sm font-medium text-gray-900 sr-only">Your Email</label>
+                        <div className="relative">
+                            <input type="search" id="search" className="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your email adress..." required=""/>
+                            <button type="submit" className="text-black font-bold absolute right-2.5 bottom-2.5 bg-[#ffde59] hover:bg-[#ffde30] focus:outline-none font-medium rounded-lg text-sm px-4 py-2">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
