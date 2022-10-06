@@ -1,13 +1,26 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 
 const Register = () => {
+
+  const loopArr = ['Federer', 'Durant', 'Ronaldo', 'Messi', 'Bryant', 'Nadal', 'Bolt', 'Phelps', 'Hamilton', 'Schumacher'];
+  
+    const [index, setIndex] = useState(0);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setIndex(index + 1);
+      }, 5000);
+      return () => clearInterval(interval);
+    });
+
   return (
     <div className='Register'>  
         <div className="bg-gray-900">
             <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
                 <h2 className="text-3xl font-extrabold text-black sm:text-4xl mb-10">
                     <span className="block text-white">
-                        Are you the next <span className="text-[#ffde59]">Federer</span> ?
+                        Are you the next <span className="text-[#ffde59]">{loopArr[index]}</span> ?
                     </span>
                     <span className="block font-normal text-xl text-white">
                         Register now for early access!

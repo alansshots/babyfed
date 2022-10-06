@@ -22,7 +22,7 @@ const Steps = () => {
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 className="font-semibold title-font text-gray-900 mb-1 text-xl">Creating A Profile</h2>
-                  <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                  <p className="leading-relaxed">Set up a profile and add to it a list of your achievements, videos, photos, biography, future goals and more!</p>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Steps = () => {
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 className="font-semibold title-font text-gray-900 mb-1 text-xl">Get Discovered</h2>
-                  <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                  <p className="leading-relaxed">BabyFed will promote, suggest and recommed yout profile to clubs, trainers, potential investors and companies.</p>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Steps = () => {
                 </div>
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 className="font-semibold title-font text-gray-900 mb-1 text-xl">Time to show everyone who's the real deal!</h2>
-                  <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                  <p className="leading-relaxed">After successfully finding a new club, trainer or funding it's time to shoot for the stars and show the world your true potential.</p>
                 </div>
               </div>
             </div>
