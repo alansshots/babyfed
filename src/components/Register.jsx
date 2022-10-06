@@ -14,6 +14,9 @@ const Register = () => {
       return () => clearInterval(interval);
     });
 
+    // https://script.google.com/macros/s/AKfycbxMnvlhPbAoRDY2nMQ_nkLTnfCjpNaQnSaiB1NQ428Y5r6qxQPcz_04Mo1-X32dxRlpdQ/exec
+    // AKfycbxMnvlhPbAoRDY2nMQ_nkLTnfCjpNaQnSaiB1NQ428Y5r6qxQPcz_04Mo1-X32dxRlpdQ
+
   return (
     <div className='Register'>  
         <div className="bg-gray-900">
@@ -27,10 +30,10 @@ const Register = () => {
                     </span>
                 </h2>
                 <div className="lg:mt-0 lg:flex-shrink-0">                   
-                    <form>   
+                    <form method="POST" action="https://api.sheetmonkey.io/form/r8Yx8HY6P3yywAucFi4Jck">   
                         <label for="search" className="mb-2 text-sm font-medium text-gray-900 sr-only">Your Email</label>
                         <div className="relative">
-                            <input type="search" id="search" className="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your email adress..." required=""/>
+                            <input name="Email" type="email" id="email" className="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your email adress..." required=""/>
                             <button type="submit" className="text-black font-bold absolute right-2.5 bottom-2.5 bg-[#ffde59] hover:bg-[#ffde30] focus:outline-none font-medium rounded-lg text-sm px-4 py-2">Submit</button>
                         </div>
                     </form>

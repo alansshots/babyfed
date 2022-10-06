@@ -26,7 +26,7 @@ const Footer = () => {
                                 </li>
                                 <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
                                     <a href="#">
-                                        support
+                                        Support
                                     </a>
                                 </li>
                             </ul>
