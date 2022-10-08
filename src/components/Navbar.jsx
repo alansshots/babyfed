@@ -11,11 +11,12 @@ const Navbar = () => {
         </div>
 
         <div className='mr-10'>
-            <motion.button 
+            <motion.a 
+            href="#Register"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}            
             className='border-double border-4 border-black px-4 py-2 rounded-xl cursor-none'>
-            Register now</motion.button>
+            Register now</motion.a>
         </div>
     </div>
   )

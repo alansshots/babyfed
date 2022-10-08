@@ -13,10 +13,10 @@ const Register = () => {
         setIndex(index + 1);
       }, 3000);
       return () => clearInterval(interval);
-    });
+    }, []);
 
   return (
-    <div className='Register'>  
+    <div id='Register'>  
         <div className="bg-gray-900">
             <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
                 <h2 className="text-3xl font-extrabold text-black sm:text-4xl mb-10">

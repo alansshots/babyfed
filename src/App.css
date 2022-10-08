@@ -1,5 +1,6 @@
 * {
    cursor: none;
+   scroll-behavior: smooth;
 }
 
 *:focus {
@@ -34,7 +35,6 @@
   font-size: clamp(30px, 5vw, 4vw);
   font-weight: 300;
   text-transform: uppercase;
-  width: 100vw;
 }
 .text-scroll p {
   margin: 0;
