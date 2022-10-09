@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import Typed from "react-typed"
 import { useState, useEffect } from 'react'
 
 const Register = () => {
@@ -19,15 +20,21 @@ const Register = () => {
     <div id='Register'>  
         <div className="bg-gray-900">
             <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-                <h2 className="text-3xl font-extrabold text-black sm:text-4xl mb-10">
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-black sm:text-4xl mb-10">
                     <span className="block text-[#ffde59]">
                         Are you the next 
                         <motion.span
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5 }}
-                        className="text-[#ffde59] ml-2 italic">{ (loopArr[index]) }
-                        </motion.span> ?
+                        className="text-[#ffde59] ml-2 italic">
+                          <Typed
+                            strings={['Ronaldo?', 'Durant?', 'Federer?', 'Messi?', 'Bryant?', 'Nadal?', 'Bolt?', 'Phelps?', 'Hamilton?']}
+                            typeSpeed={150}
+                            backSpeed={150}
+                            loop
+                          />
+                        </motion.span>
                     </span>
                     <span className="block font-normal text-xl text-white">
                         Register now for early access!
