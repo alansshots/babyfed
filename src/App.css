@@ -7,6 +7,20 @@
    outline: none;
 }
 
+@media (max-width:600px)  { 
+  * {
+    cursor: auto;
+ }
+
+ .cursor {
+  display: none;
+ }
+} 
+
+/* html.touch .cursor {
+  display: none;
+} */
+
 .box {
     margin: 50px;
     border: 2px solid #ffde59;

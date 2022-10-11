@@ -14,7 +14,7 @@ function App() {
     x: 0,
     y: 0
   })
-  
+
   useEffect(() => {
     const mouseMove = (e) => {
       setMousePosition({
@@ -39,6 +39,20 @@ function App() {
       // color:'#000'
     },
   }
+
+  // function is_touch_enabled() {
+  //   return ( 'ontouchstart' in window ) ||
+  //          ( navigator.maxTouchPoints > 0 ) ||
+  //          ( navigator.msMaxTouchPoints > 0 );
+  // }
+
+  // if( is_touch_enabled() ) {
+  //   let cursor = document.querySelector('.cursor')
+  //   cursor.style.display = "none"; 
+  // }
+  // else {
+  //   cursor.style.display = "block"
+  // }
 
   return (
     <div className="App">

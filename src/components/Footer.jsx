@@ -20,11 +20,16 @@ const Footer = () => {
                             </h2>
                             <ul>
                                 <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                                    <a href="#">
+                                    <a href='mailto:contact@babyfed.com'>
                                         contact@babyfed.com
                                     </a>
                                 </li>
-                                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+                                {/* <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+                                    <a href="">
+                                        Support
+                                    </a>
+                                </li> */}
+                                <li className='mb-4 hover:text-white'>
                                     <a href="#">
                                         Support
                                     </a>

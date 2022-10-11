@@ -57,7 +57,7 @@ const Steps = () => {
                   <UilTrophy/>
                 </div> */}
                 <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 className="strokeme font-semibold title-font text-black mb-1 text-3xl">Time to show everyone who's the real deal!</h2>
+                  <h2 className="strokeme font-semibold title-font text-black mb-1 text-3xl">Time to Shine!</h2>
                   <p className="leading-relaxed">After successfully finding a new club, trainer or funding it's time to shoot for the stars and show the world your true potential.</p>
                 </div>
               </div>
