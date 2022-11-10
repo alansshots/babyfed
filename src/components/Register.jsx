@@ -41,7 +41,8 @@ const Register = () => {
                     </span>
                 </h2>
                 <div className="lg:mt-0 lg:flex-shrink-0">                   
-                    <form method="POST" action="https://api.sheetmonkey.io/form/r8Yx8HY6P3yywAucFi4Jck">   
+                {/* For a quick set up I would recomend using Sheetmonkey (Ideal for collecting emails)*/}
+                    <form method="POST" action="">    
                         <label for="search" className="mb-2 text-sm font-medium text-gray-900 sr-only">Your Email</label>
                         <div className="relative">
                             <input name="Email" type="email" id="email" className="block p-4 pl-10 w-full text-sm text-[#ffde59] rounded-lg border-b-2 border-[#ffde59] bg-transparent outline-0" placeholder="Enter your email adress..." required=""/>

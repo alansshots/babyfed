@@ -15,7 +15,7 @@ const Navbar = () => {
             href="#Register"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}            
-            className='border-double border-4 border-black px-2 sm:px-4 py-2 rounded-xl cursor-none'>
+            className='border-double border-4 border-black px-1 sm:px-4 py-2 rounded-xl cursor-none'>
             Register now</motion.a>
         </div>
     </div>
